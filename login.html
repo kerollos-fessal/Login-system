@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Titillium+Web:wght@200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/photo2.avif" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>Login System</title>
+  </head>
+  <body>
+    <main class="container mb-2 px-5">
+      <div class="px-5">
+        <div
+          class="p-5 h-25 w-75 m-auto shadow-lg box-cont text-center text-white mt-5 border border-3 border-info"
+        >
+          <h1 class="headTitle">Smart Login System</h1>
+
+          <div class="form-group p-5">
+            <input
+              type="email"
+              id="loginEmailInput"
+              placeholder="Enter your email"
+              class="mb-3 form-control bg-transparent text-white"
+            />
+            <input
+              type="password"
+              id="loginPasswordInput"
+              placeholder="Enter your password"
+              class="form-control bg-transparent text-white"
+            />
+            <div
+              class="text-danger mb-0 mt-1 alert alert-danger d-none"
+              id="matchErr"
+            >
+              Wrong email or password!
+            </div>
+            <button id="loginBtn" class="btn btn-outline-primary mt-3">
+              Login
+            </button>
+          </div>
+
+          <p>
+            You don't have an account?<a href="index.html" class="fw-bolder"
+              >signup</a
+            >
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>

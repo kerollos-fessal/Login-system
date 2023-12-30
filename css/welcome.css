@@ -1,0 +1,11 @@
+body {
+  background-image: url(../images/photo.avif);
+  background-position: 50% 25%;
+  background-size: cover;
+  color: rgb(235, 152, 110);
+  font-size: 3rem;
+}
+
+#welcomeMsg {
+  text-shadow: 7px 7px 9px #000203;
+}
